@@ -1,0 +1,88 @@
+<div class="question1" style="background-color: #a32a9f; height: 600px; width: 500px; margin-left: 700px">
+	<img src="Без названия.jpg" style="width: 500px; height:250px">
+		<h2>Кто такой Лунтик?</h2>
+	<div class="variant1" style="background-color: green; height: 70px; width: 500px">
+		1.Лунтик
+	</div>
+	<div class="variant2" style="background-color: yellow; height: 70px; width: 500px">
+		2.Лунная пчела
+	</div>
+	<div class="variant3" style="background-color: orange; height: 70px; width: 500px">
+		3.Фея из клуба Винкс, потому что состоит в секте "Люблю BTS"(Army)
+	</div>
+</div>
+<div class="question2" style="background-color: #b1ccfa; height: 600px; width: 500px; margin-left: 700px; display: none">
+	<img src="Без названия (1).jpg" style="width: 500px; height:250px">
+		<h2>Когда Лунтик отмечает день рождения?</h2>
+	<div class="variant1" style="background-color: red; height: 70px; width: 500px">
+		1. 26 декабря
+	</div>
+	<div class="variant2" style="background-color: purple; height: 70px; width: 500px">
+		2. 12 апреля
+	</div>
+	<div class="variant3" style="background-color: #fac7b1; height: 70px; width: 500px">
+		3. 7 ноября
+	</div>
+</div>
+<div class="question3" style="background-color: #a32a9f; height: 600px; width: 500px; margin-left: 700px; display: none">
+	<img src="images.jpg" style="width: 500px; height:250px">
+	<h2>Откуда взялся Лунтик?</h2>
+	<div class="variant1" style="background-color: green; height: 70px; width: 500px">
+		1. Свалился с луны
+	</div>
+	<div class="variant2" style="background-color: yellow; height: 70px; width: 500px">
+		2.из цветка
+	</div>
+	<div class="variant3" style="background-color: orange; height: 70px; width: 500px">
+		3.свалился с солнца
+	</div>
+</div>
+<div class="question4" style="background-color: red; height: 600px; width: 500px; margin-left: 700px; display: none ">
+	<img src="thumb_676_file6zex13iulcn1mbd5c2i3.jpg" style="height: 250px; width: 500px">
+	<h2>Куда упал Лунтик?</h2>
+	<div class="variant1" style="background-color: yellow; height: 70px; width: 500px">
+		Он сдох
+	</div>
+	<div class="variant2" style="background-color: purple; height: 70px; width: 500px">
+ 		Он упал на траву
+	</div>
+	<div class="variant3" style="background-color: green; height: 70px; width: 500px">
+		Он упал в пруд
+	</div>
+</div>
+<div class="question5" style="background-color: blue;height: 600px; width: 500px; margin-left: 700px; display: none">
+	<img src="4dba36854cf1d117f3c96866422f53e019012c.jpg" style="height: 250px; width: 500px">
+	<h2>Кто главный злодей этого мультика?</h2>
+	<div class="variant1" style="background-color: green; height: 70px; width: 500px ">
+		Кузя
+	</div>
+	<div class="variant2" style="background-color: brown; height: 70px; width: 500px">
+		Вупсень и Пупсень
+	</div>
+	<div class="variant3" style="background-color: #ff0073; height: 70px; width: 500px">
+		Дядя Шнюк 
+	</div>
+</div>
+<div class="win" style="width: 500px; height: 500px; margin-left: 500px;font-size: 100px; display: none;">
+    <img src="unnamed.jpg" style="width: 800px; height: 800px">
+</div>
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js">
+    
+</script>
+<script type="text/javascript">
+   find("question1 variant1").click("alert","неправильно") 
+   find("question1 variant2").click("show","question2","да")
+   find("question1 variant3").click("alert","нет") 
+   find("question2 variant1").click("alert","направильно") 
+   find("question2 variant2").click("show","question3","да")
+   find("question2 variant3").click("alert","неправильно")
+   find("question3 variant1").click("show","question4","правильно") 
+   find("question3 variant2").click("alert","нет")
+   find("question3 variant3").click("alert","неправильно")
+   find("question4 variant1").click("alert","направильно") 
+   find("question4 variant2").click("alert","нет")
+   find("question4 variant3").click("show","question5","да") 
+   find("question5 variant1").click("alert","направильно") 
+   find("question5 variant2").click("show","win","да")
+   find("question5 variant3").click("alert","неправильно")
+</script>
